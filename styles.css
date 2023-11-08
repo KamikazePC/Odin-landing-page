@@ -68,6 +68,12 @@ body, h1, h2, h3, p, ul, li, button {
     font-size: 20px; /* Updated font size */
     border-radius: 5px;
   }
+
+  .hero img{
+    background-color: grey ;
+    width: 500px;
+    height: 200px;
+  }
   
   /* Style the information section */
   .information {
@@ -129,7 +135,7 @@ body, h1, h2, h3, p, ul, li, button {
     display: flex;
     justify-content: space-between;
     margin: 50px;
-    padding: 10px 30px;
+    padding: 20px 50px;
 
   }
 
@@ -154,7 +160,6 @@ body, h1, h2, h3, p, ul, li, button {
   /* Style the footer section */
   .footer {
     background-color: #1f2937; /* Background color */
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
