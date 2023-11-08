@@ -1,0 +1,168 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color to the entire page */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header section */
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937; /* Updated background color */
+    color: #fff;
+    padding: 40px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8; /* Updated text color */
+    margin-right:auto;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  /* Style the hero section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937; /* Updated background color */
+    color: #fff;
+    padding: 40px;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-main-text {
+    font-size: 48px; /* Updated font size */
+    font-weight: bold;
+    color: #f9faf8; /* Updated text color */
+    margin-bottom: 20px;
+  }
+  
+  .hero-sec-text {
+    font-size: 18px; /* Updated font size */
+    color: #e5e7eb; /* Updated text color */
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #3882f6; /* Updated background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px; /* Updated font size */
+    border-radius: 5px;
+  }
+  
+  /* Style the information section */
+  .information {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff; /* Updated background color */
+    padding: 40px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .subtitle{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    color: #1f2937;
+  }
+  
+  .images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+
+  }
+  .item {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .item img {
+    max-width: 100px;
+    
+
+  }
+
+  
+  /* Style the quote section */
+  .quote {
+    background-color: #e5e7eb; /* Updated background color */
+    color: #1f2937; /* Updated text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .quote div {
+    font-size: 36px; /* Updated font size */
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  /* Style the sign-up section */
+.sign-up {
+    background-color: #3882f6; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 10px 30px;
+
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+
+  }
+
+  .sign-up button {
+        background-color: #3882f6; /* Button background color */
+        color: #fff; /* Button text color */
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 20px; /* Button text size */
+        border: 2px solid #fff; /* White border */
+    }
+    
+
+  
+  /* Style the footer section */
+  .footer {
+    background-color: #1f2937; /* Background color */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  
