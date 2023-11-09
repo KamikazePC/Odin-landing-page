@@ -40,6 +40,8 @@ body, h1, h2, h3, p, ul, li, button {
     background-color: #1f2937; /* Updated background color */
     color: #fff;
     padding: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   
   .hero-text {
@@ -119,6 +121,7 @@ body, h1, h2, h3, p, ul, li, button {
     color: #1f2937; /* Updated text color */
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
   }
   
   .quote div {
@@ -136,6 +139,7 @@ body, h1, h2, h3, p, ul, li, button {
     justify-content: space-between;
     margin: 50px;
     padding: 20px 50px;
+    border-radius: 10px;
 
   }
 
